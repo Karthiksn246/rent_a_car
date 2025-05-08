@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Rent-A-Car</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <!-- login js -->
+  <script src="js/custom.js"></script>
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Rent-A-Car
+            </span>
+          </a>
+
+          <div class="navbar-collapse" id="">
+            <div class="user_option">
+              <a href="login.html">
+                Login
+              </a>
+            </div>
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="car.html">Cars</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="login.html">Login</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- login section -->
+
+  <section class="auth_section layout_padding2-top layout_padding-bottom">
+    <div class="container">
+      <div class="auth-box">
+        <div class="form-toggle">
+          <button onclick="showLogin()">Login</button>
+          <button onclick="showSignup()">Signup</button>
+        </div>
+  
+        <!-- Login Form -->
+        <form id="loginForm" class="auth-form">
+          <h2>Login</h2>
+          <div class="input-box">
+            <label for="loginUsername">Username</label>
+            <input type="text" id="loginUsername" required>
+          </div>
+          <div class="input-box">
+            <label for="loginPassword">Password</label>
+            <input type="password" id="loginPassword" required>
+          </div>
+          <button type="submit">Login</button>
+          <p id="loginMessage"></p>
+        </form>
+  
+        <!-- Signup Form -->
+        <form id="signupForm" class="auth-form hidden">
+          <h2>Signup</h2>
+          <div class="input-box">
+            <label for="signupUsername">Username</label>
+            <input type="text" id="signupUsername" required>
+          </div>
+          <div class="input-box">
+            <label for="signupPassword">Password</label>
+            <input type="password" id="signupPassword" required>
+          </div>
+          <div class="input-box">
+            <label for="Mobile">Mobile No.</label>
+            <input type="number" id="Mobile" required>
+          </div>
+          <div class="input-box">
+            <label for="email">E-mail</label>
+            <input type="email" id="signupEmail" required>
+          </div>
+          <button type="submit">Signup</button>
+          <p id="signupMessage"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- end about section -->
+
+  <!-- footer section -->
+  <footer class="container-fluid footer_section">
+    <p>
+      Design by Karthik
+    </p>
+  </footer>
+  <!-- footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
